@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SurfaceView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/surface_view"
+        />
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="400dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="200dp"
+        />
+    <TextView
+        android:id="@+id/text_view"
+        android:text="no text"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+       
+        />
+<Button
+        android:id="@+id/button1"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:text="capture"
+        android:layout_marginTop="475dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="@android:color/darker_gray"/>
+   
+</RelativeLayout>
